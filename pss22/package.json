@@ -1,0 +1,21 @@
+{
+  "name": "pss22",
+  "version": "1.0.0",
+  "description": "projeto para alunos do novo ensino médio TDS",
+  "main": "src/index.js",
+  "author": "Professor Lucas J. Souza",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx nodemon src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.1",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
